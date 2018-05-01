@@ -17,7 +17,7 @@ namespace empy.Persistence.Repositories.Tests
         {
             EmployeeRepository repository = new EmployeeRepository();
             var result = await repository.GetEmployeesAsync();
-            Assert.IsInstanceOfType(result, typeof(IEnumerable<Employee>));
+            Assert.IsInstanceOfType(result, typeof(IEnumerable<EmployeeApiDto>));
         }
     }
 }

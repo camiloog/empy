@@ -144,6 +144,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Core\Domain\Employee.cs" />
+    <Compile Include="Core\Domain\EmployeeApiDto.cs" />
+    <Compile Include="Core\Dtos\EmployeeClientDto.cs" />
     <Compile Include="Core\Repositories\IEmployeeRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

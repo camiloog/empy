@@ -6,6 +6,6 @@ namespace empy.Core.Repositories
 {
     public interface IEmployeeRepository
     {
-        Task<IEnumerable<Employee>> GetEmployeesAsync();
+        Task<IEnumerable<EmployeeApiDto>> GetEmployeesAsync();
     }
 }
