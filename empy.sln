@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "empy", "empy\empy.csproj", "{2C633966-9BB7-4097-A92E-8C061F1C2EB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "empyTests", "empyTests\empyTests.csproj", "{1D2C1494-EEFE-4652-A133-B3E379DE44CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2C633966-9BB7-4097-A92E-8C061F1C2EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C633966-9BB7-4097-A92E-8C061F1C2EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C633966-9BB7-4097-A92E-8C061F1C2EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D2C1494-EEFE-4652-A133-B3E379DE44CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2C1494-EEFE-4652-A133-B3E379DE44CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2C1494-EEFE-4652-A133-B3E379DE44CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2C1494-EEFE-4652-A133-B3E379DE44CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
