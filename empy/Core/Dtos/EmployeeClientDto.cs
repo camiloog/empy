@@ -1,6 +1,7 @@
 ﻿using empy.Core.Domain;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Web;
 
@@ -20,12 +21,18 @@ namespace empy.Core.Dtos
             AnnualSalary = _employee.AnnualSalary;
         }
 
+        [DisplayName("ID")]
         public int Id { get; set; }
         public string Name { get; set; }
+        [DisplayName("Contract Type")]
         public string ContractTypeName { get; set; }
+        [DisplayName("Role")]
         public string RoleName { get; set; }
+        [DisplayName("Hourly Salary")]
         public double HourlySalary { get; set; }
+        [DisplayName("Monthly Salary")]
         public double MonthlySalary { get; set; }
+        [DisplayName("Annual Salary")]
         public double AnnualSalary { get; set; }
     }
 }
